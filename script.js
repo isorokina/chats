@@ -38,10 +38,15 @@ async function ielaadeetChataZinjasJson()
     while(i< await dati.lenght)
     {
         //console.log(i)//radīti cipari
-        let laiks='[<i>'+dati[i]['laiks']+'</i>] ';
+        if ("laiks" in dati[i]{
+            let laiks='[<i>'+dati[i]['laiks']+'</i>] ';
+    }
+    else{
+        let laiks='[<i>'+'????????'+'</i>] ';
         zinjas.innerHTML=zinjas.innerHTML+laiks+dati[i]['vaards']+':'+dati[i]['zinja']+'<br /'
         i=i+1;
     }
+    zinjas.scrollTop=zinjas.scrollHeight;
 } //šeit beidzās funkcija ielādēt čata ziņas
 setIntervaal(ielaadeetChataZinjasJson, 1000)
 
