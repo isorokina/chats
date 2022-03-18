@@ -18,3 +18,4 @@ async function ielaadeetChataZinjas()
     //console.log(dati);
     zinjas.innerHTML=dati;
 }
+setInterval(ielaadeetChataZinjas,1000)//ielādēt 1 sek čata ziņas
