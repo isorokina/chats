@@ -1,3 +1,8 @@
 body{
-    background-color: green;
+    background-color: url(fons.jpg);
+
+}
+.wrapper
+{
+    background-attachment: red;
 }
