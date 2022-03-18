@@ -10,6 +10,11 @@ body{
     border: 5px solid rgb(221, 35, 35);
     padding: 10px;
     margin:auto;
-    
 
+
+}
+.chataZinas
+{
+    background-color: rgba(168, 227, 245, 0.74);
+    height: 300px;
 }
