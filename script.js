@@ -11,7 +11,9 @@ function suutiitZinju()
 
     zinjas.innerHTML=zinjas.innerHTML+'</br>'+zinja.value;
 }
-function ielaadeetZinjas()
+async function ielaadeetChataZinjas()
 {
-    
+    let datiNoServera=await fetch('chatazinjas.txt')
+    let dati=await datiNoServera.text();
+    console.log(dati);
 }
