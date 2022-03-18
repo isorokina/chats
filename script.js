@@ -31,7 +31,7 @@ async function ielaadeetChataZinjasJson()
     //zinjas.innerHTML=dati;
     //var i=i//plašāks, pēc noklusējuma
     i=0;
-    while(i< 5))
+    while(i< await dati.lenght))
     {
         console.log(i)
         i=i+1;
