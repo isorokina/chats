@@ -1,3 +1,4 @@
+const API="https://chat1803.ijasorokina2.repl.co"
 //concole.log(1)
 let zinja=document.querySelector(.manaZinja);
 let zinjas=document.querySelector(.chataZinjas);
