@@ -14,7 +14,8 @@ function suutiitZinju()
 }
 async function ielaadeetChataZinjas()
 {
-    let datiNoServera=await fetch('chatazinjas.txt')
+    ///let datiNoServera=await fetch('chatazinjas.txt')
+    let datiNoServera=await fetch(API+'/lasiit')
     let dati=await datiNoServera.text();
     //console.log(dati);
     zinjas.innerHTML=dati;
