@@ -37,14 +37,14 @@ async function ielaadeetChataZinjasJson()
     i=0;
     while(i< await dati.lenght)
     {
-        //console.log(i)//radīti cipari
-        if ("laiks" in dati[i]{
-            let laiks='[<i>'+dati[i]['laiks']+'</i>] ';
-    }
-    else{
-        let laiks='[<i>'+'????????'+'</i>] ';
-        zinjas.innerHTML=zinjas.innerHTML+laiks+dati[i]['vaards']+':'+dati[i]['zinja']+'<br /'
-        i=i+1;
+        //console.log(i);
+        let laiks = '[<i>' + '????          ' + '</i>] ';
+        if ("laiks" in dati[i]) {
+            laiks = '[<i>' + dati[i]['laiks'] + '</i>] ';
+        }
+        zinas.innerHTML = zinas.innerHTML + laiks + dati[i]['vards']+': '+dati[i]['zina']+'<br />';
+
+        i = i+1;
     }
     zinjas.scrollTop=zinjas.scrollHeight;
 } //šeit beidzās funkcija ielādēt čata ziņas
