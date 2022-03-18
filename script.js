@@ -32,7 +32,7 @@ async function ielaadeetChataZinjasJson()
     //var i=i//plašāks, pēc noklusējuma
     
     //kā piekļūt saviem datiem?
-    console.log(await dati[0]['zinja']) //pirmais ieraksts no severa
+    //console.log(await dati[0]['zinja']) //pirmais ieraksts no severa
     
     i=0;
     while(i< await dati.lenght))
@@ -40,5 +40,5 @@ async function ielaadeetChataZinjasJson()
         console.log(i)
         i=i+1;
     }
-}
+} //šeit beidzās funkcija ielādēt čata ziņas
 
