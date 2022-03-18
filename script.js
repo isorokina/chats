@@ -33,7 +33,7 @@ async function ielaadeetChataZinjasJson()
     
     //kā piekļūt saviem datiem?
     //console.log(await dati[0]['zinja']) //pirmais ieraksts no severa
-    
+    zinjas.innerHTML='';
     i=0;
     while(i< await dati.lenght))
     {
