@@ -38,6 +38,7 @@ async function ielaadeetChataZinjasJson()
     while(i< await dati.lenght))
     {
         console.log(i)
+        zinjas.innerHTML=zinjas.innerHTML+dati[i]['zinja']
         i=i+1;
     }
 } //šeit beidzās funkcija ielādēt čata ziņas
