@@ -35,11 +35,12 @@ async function ielaadeetChataZinjasJson()
     //console.log(await dati[0]['zinja']) //pirmais ieraksts no severa
     zinjas.innerHTML='';
     i=0;
-    while(i< await dati.lenght))
+    while(i< await dati.lenght)
     {
-        console.log(i)
-        zinjas.innerHTML=zinjas.innerHTML+dati[i]['zinja']
+        //console.log(i)//radīti cipari
+        zinjas.innerHTML=zinjas.innerHTML+dati[i]['vaards']+':'+dati[i]['zinja']+'<br /'
         i=i+1;
     }
 } //šeit beidzās funkcija ielādēt čata ziņas
+setIntervaal(ielaadeetChataZinjasJson, 1000)
 
