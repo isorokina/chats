@@ -5,12 +5,13 @@ let zinjas=document.querySelector(.chataZinjas);
 
 function suutiitZinju()
 {
-    console.log("Sūtīt ziņu darbojās");
+    console.log("suutiitZinju() darbojas");
     //let zinja=document.querySelector(.manaZinja).value; //piešķir vienu vērtējumu
     ///let zinja=document.querySelector(.manaZinja);
     ///let zinjas=document.querySelector(.chataZinjas);
 
     zinjas.innerHTML=zinjas.innerHTML+'</br>'+zinja.value;
+   // fetch(API + '/suutiit/Juris/' + zinja.value)
 }
 async function ielaadeetChataZinjas()
 {
